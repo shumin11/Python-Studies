@@ -13,7 +13,7 @@ z_num = {}
 for i in zodiac_name:
    z_num[i] = 0
 
-while True:
+while True: #无限循环
 
  # 用户输入出生年份月份和日期
     year = int(input('请输入年份：'))
