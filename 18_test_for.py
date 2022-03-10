@@ -6,7 +6,8 @@ for i in range (1,11):
 
 print (alist)
 
-blist = [i* i for i in range(1,11) if (i % 2) == 0]
+blist = [i* i for i in range(1,11) if (i % 2) == 0] 
+#列表推导式
 print (blist)
 
 z_num = {}
