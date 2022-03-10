@@ -16,9 +16,10 @@
 #      print('%s 年的生肖是 %s' % (year, chinese_zodiac[year % 12]))
 
 num =5
-while True:
+while True: # while normally connect with break or continue 
    num = num + 1
    if num == 10:
-      break
+      break    #stop the recursion
+   #continue to skip this step and move to next
 print(num)
  
